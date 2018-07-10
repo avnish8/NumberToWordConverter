@@ -1,12 +1,13 @@
 package com.avnishsrivastava;
 
 import com.avnishsrivastava.decoder.Decoder;
-import com.avnishsrivastava.input.UserInput;
+import com.avnishsrivastava.input.ScannerInput;
 
 public class App 
 {
-    private static UserInput input = new UserInput();
+    private static ScannerInput input = new ScannerInput();
     private static Decoder decoder = new Decoder(input);
+
 
     public static void main( String[] args )
     {
@@ -14,8 +15,3 @@ public class App
             System.out.println(str);
     }
 }
-
-/*
-    Decode can be improved (coding standards)
-
- */

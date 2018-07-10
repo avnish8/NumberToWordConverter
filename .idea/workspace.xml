@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab36417-b14f-403c-92d6-e93c3eaf230f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/decoder/Decoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/SuffixData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/decoder/DecoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/input/ScannerInputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/util/DigitToWordConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/util/SuffixDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/util/ThreeDigitsToWordProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/number-to-word.iml" beforeDir="false" afterPath="$PROJECT_DIR$/number-to-word.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/decoder/Decoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/decoder/Decoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/IUserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/IUserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/ScannerInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/resources/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/DigitToWordConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/DigitToWordConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/ThreeDigitsToWordProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/ThreeDigitsToWordProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/avnishsrivastava/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/avnishsrivastava/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/decoder/Decoder.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="135">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,29 +49,8 @@
       <file leaf-file-name="Decoder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/decoder/Decoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Decoder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/avnishsrivastava/decoder/Decoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/UserInput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="330">
+              <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,7 +70,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Z</find>
+      <find>fourty</find>
+      <find>UserInput</find>
     </findStrings>
+    <replaceStrings>
+      <replace>forty</replace>
+      <replace>ScannerInput</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,14 +88,21 @@
         <option value="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" />
         <option value="$PROJECT_DIR$/number-to-word.iml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/IUserInput.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/DigitToWordConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/decoder/Decoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/UserInput.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/decoder/DecoderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/util/ThreeDigitsToWordProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/SuffixData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/DigitToWordConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/input/ScannerInputTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/util/DigitToWordConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/util/SuffixDataTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/resources/input.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/ThreeDigitsToWordProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/IUserInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/ScannerInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/decoder/Decoder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/avnishsrivastava/decoder/Decoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/avnishsrivastava/App.java" />
       </list>
     </option>
   </component>
@@ -222,6 +221,24 @@
               <item name="avnishsrivastava" type="462c0819:PsiDirectoryNode" />
               <item name="decoder" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="number-to-word" type="b2602c69:ProjectViewProjectNode" />
+              <item name="number-to-word" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="avnishsrivastava" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="number-to-word" type="b2602c69:ProjectViewProjectNode" />
+              <item name="number-to-word" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="avnishsrivastava" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -232,9 +249,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -248,20 +266,124 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.avnishsrivastava.App" />
-      <module name="number-to-word" />
+  <component name="RunManager" selected="JUnit.ThreeDigitsToWordProcessorTest">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DecoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="number-to-word" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.avnishsrivastava.*" />
+          <option name="PATTERN" value="com.avnishsrivastava.decoder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.avnishsrivastava.decoder" />
+      <option name="MAIN_CLASS_NAME" value="com.avnishsrivastava.decoder.DecoderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="DigitToWordConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="number-to-word" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avnishsrivastava.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.avnishsrivastava.util" />
+      <option name="MAIN_CLASS_NAME" value="com.avnishsrivastava.util.DigitToWordConverterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ScannerInputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="number-to-word" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avnishsrivastava.input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.avnishsrivastava.input" />
+      <option name="MAIN_CLASS_NAME" value="com.avnishsrivastava.input.ScannerInputTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SuffixDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="number-to-word" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avnishsrivastava.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.avnishsrivastava.util" />
+      <option name="MAIN_CLASS_NAME" value="com.avnishsrivastava.util.SuffixDataTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ThreeDigitsToWordProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="number-to-word" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avnishsrivastava.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.avnishsrivastava.util" />
+      <option name="MAIN_CLASS_NAME" value="com.avnishsrivastava.util.ThreeDigitsToWordProcessorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -301,9 +423,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.DecoderTest" />
+      <item itemvalue="JUnit.ScannerInputTest" />
+      <item itemvalue="JUnit.SuffixDataTest" />
+      <item itemvalue="JUnit.DigitToWordConverterTest" />
+      <item itemvalue="JUnit.ThreeDigitsToWordProcessorTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.ThreeDigitsToWordProcessorTest" />
+        <item itemvalue="JUnit.DigitToWordConverterTest" />
+        <item itemvalue="JUnit.SuffixDataTest" />
+        <item itemvalue="JUnit.ScannerInputTest" />
+        <item itemvalue="JUnit.DecoderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +453,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DecoderTest - 2018.07.11 at 03h 36m 10s.xml">
+      <configuration name="DecoderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerInputTest - 2018.07.11 at 03h 36m 22s.xml">
+      <configuration name="ScannerInputTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerInputTest - 2018.07.11 at 03h 37m 21s.xml">
+      <configuration name="ScannerInputTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitToWordConverterTest - 2018.07.11 at 03h 44m 23s.xml">
+      <configuration name="DigitToWordConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitToWordConverterTest - 2018.07.11 at 03h 44m 46s.xml">
+      <configuration name="DigitToWordConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuffixDataTest_sdTest - 2018.07.11 at 03h 50m 24s.xml">
+      <configuration name="SuffixDataTest.sdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuffixDataTest_sdTest - 2018.07.11 at 03h 50m 58s.xml">
+      <configuration name="SuffixDataTest.sdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuffixDataTest_sdTest - 2018.07.11 at 03h 51m 57s.xml">
+      <configuration name="SuffixDataTest.sdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuffixDataTest_sdTest - 2018.07.11 at 03h 52m 03s.xml">
+      <configuration name="SuffixDataTest.sdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuffixDataTest_sdTest - 2018.07.11 at 03h 53m 17s.xml">
+      <configuration name="SuffixDataTest.sdTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
@@ -333,7 +498,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5389151" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4162736" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -394,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/avnishsrivastava/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -417,6 +575,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/number-to-word.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -424,48 +592,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/avnishsrivastava/util/ThreeDigitsToWordProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/avnishsrivastava/input/ScannerInputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/SuffixData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/avnishsrivastava/util/SuffixDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/avnishsrivastava/util/DigitToWordConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/avnishsrivastava/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/avnishsrivastava/decoder/DecoderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/resources/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/ScannerInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/IUserInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/resources/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/DigitToWordConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="495">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/util/ThreeDigitsToWordProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/input/UserInput.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/decoder/Decoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="330">
+          <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -474,28 +710,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/avnishsrivastava/decoder/Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/avnishsrivastava/decoder/Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -556,7 +775,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

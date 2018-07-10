@@ -25,13 +25,14 @@ public class DigitToWordConverter {
                 "one ",
                 "twenty ",
                 "thirty ",
-                "fourty ",
+                "forty ",
                 "fifty ",
                 "sixty ",
                 "seventy ",
                 "eighty ",
                 "ninety ",
         };
+
         return ten[a];
     }
 
@@ -48,6 +49,24 @@ public class DigitToWordConverter {
                 "eighteen ",
                 "nineteen ",
         };
+
         return tensOne[a - 10];
+    }
+
+    public String hundreds(int a) {
+        String[] hundred = {
+                "zero ",
+                "one hundred ",
+                "two hundred ",
+                "three hundred ",
+                "four hundred ",
+                "five hundred ",
+                "six hundred ",
+                "seven hundred ",
+                "eight hundred ",
+                "nine hundred ",
+        };
+
+        return hundred[a];
     }
 }

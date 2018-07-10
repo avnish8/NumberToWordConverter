@@ -8,5 +8,5 @@ public interface IUserInput {
     *
     */
 
-    List<Integer> getNumberListFromInput();
+    List<Integer> getNumbersListFromInput();
 }

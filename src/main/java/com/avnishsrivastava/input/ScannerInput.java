@@ -6,16 +6,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class UserInput implements IUserInput {
+public class ScannerInput implements IUserInput {
 
     private Scanner input;
-    private String filePath = "src/main/java/com/avnishsrivastava/resources/input.txt";
+    private String filePath;
 
-
-    public UserInput() {
+    public ScannerInput() {
         try{
+            this.filePath = "src/main/java/com/avnishsrivastava/resources/input.txt";
             File inFile = new File(filePath);
-            input = new Scanner(inFile);
+            this.input = new Scanner(inFile);
         }
         catch (FileNotFoundException e) {
             System.out.println("File Not Found");
@@ -24,21 +24,16 @@ public class UserInput implements IUserInput {
         }
     }
 
-    public List<Integer> getNumberListFromInput() {
+    public List<Integer> getNumbersListFromInput() {
 
-        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        ArrayList<Integer> numbers = new ArrayList<>();
 
         while (input.hasNextLine()) {
             int number = input.nextInt();
             numbers.add(number);
-            System.out.println(number);
         }
 
         return numbers;
     }
 
-    private int getInt() {
-        int number = input.nextInt();
-        return number;
-    }
 }
