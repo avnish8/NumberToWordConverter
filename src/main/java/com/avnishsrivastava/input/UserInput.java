@@ -22,8 +22,8 @@ public class UserInput implements IUserInput {
         }
     }
 
-    public long getLong() {
-        long number = in.nextLong();
+    public int getInt() {
+        int number = in.nextInt();
         return number;
     }
 }

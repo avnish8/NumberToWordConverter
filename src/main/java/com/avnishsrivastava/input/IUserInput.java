@@ -6,5 +6,5 @@ public interface IUserInput {
     *
     */
 
-    long getLong();
+    int getInt();
 }
