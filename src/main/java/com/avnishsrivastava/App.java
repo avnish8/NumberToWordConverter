@@ -1,11 +1,26 @@
 package com.avnishsrivastava;
 
-import java.util.Scanner;
+import com.avnishsrivastava.decoder.Decoder;
 import com.avnishsrivastava.input.UserInput;
 
 
 public class App 
 {
+    private static UserInput in = new UserInput();
+    private static Decoder decoder = new Decoder(in);
+
+
+
+    public static void main( String[] args )
+    {
+        //take input
+        // use dependency inversion
+        System.out.println(decoder.decode());
+    }
+}
+
+/*
+
     static String[] units = {
         "zero",
         "one",
@@ -61,13 +76,10 @@ public class App
         return result;
     }
 
-    public static void main( String[] args )
-    {
-        //take input
-        // use dependency inversion
-        UserInput in = new UserInput();
-        long number = in.getLong();
+    int number = in.getInt();
+
         String result = "";
+
         if (number != 0) {
             long last3 = number % 1000;
             number /= 1000;
@@ -85,5 +97,4 @@ public class App
             }
         }
         System.out.println(result);
-    }
-}
+ */
