@@ -1,38 +1,45 @@
 package com.avnishsrivastava.decoder;
 
-import com.avnishsrivastava.input.UserInput;
+import com.avnishsrivastava.input.IUserInput;
 import com.avnishsrivastava.util.ThreeDigitsToWordProcessor;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Decoder {
 
-    private UserInput in;
+    private IUserInput input;
     private ThreeDigitsToWordProcessor threeDigitsToWordProcessorProcessor;
 
-    public Decoder(UserInput in) {
-        this.in = in;
-        threeDigitsToWordProcessorProcessor = new ThreeDigitsToWordProcessor();
+    public Decoder(IUserInput in) {
+        this.input = in;
+        this.threeDigitsToWordProcessorProcessor = new ThreeDigitsToWordProcessor();
     }
 
-    public String decode() {
-        int number = in.getInt();
+    public List<String> decode() {
 
-        String unit = "";
-        String thousand = "";
-        String million = "";
+        List<Integer> numbers = input.getNumberListFromInput();
+        List<String> Results = new ArrayList<>();
 
+        for (int number : numbers) {
 
-        int last3 = number % 1000;
-        if (last3 > 0)
-            unit = threeDigitsToWordProcessorProcessor.process(last3);
+            String unit = "";
+            String thousand = "";
+            String million = "";
 
-        int mid3 = (number / 1000) % 1000;
-        if (mid3 > 0)
-            thousand = threeDigitsToWordProcessorProcessor.process(mid3) + "thousand ";
+            int last3 = number % 1000;
+            if (last3 > 0)
+                unit = threeDigitsToWordProcessorProcessor.process(last3);
 
-        int first3 = number / 1000000;
-        if (first3 > 0)
-            million = threeDigitsToWordProcessorProcessor.process(first3) + "million ";
+            int mid3 = (number / 1000) % 1000;
+            if (mid3 > 0)
+                thousand = threeDigitsToWordProcessorProcessor.process(mid3) + "thousand ";
 
-        return million + thousand + unit;
+            int first3 = number / 1000000;
+            if (first3 > 0)
+                million = threeDigitsToWordProcessorProcessor.process(first3) + "million ";
+
+            Results.add(million + thousand + unit.trim());
+        }
+        return Results;
     }
 }

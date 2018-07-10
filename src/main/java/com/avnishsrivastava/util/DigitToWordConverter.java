@@ -48,6 +48,6 @@ public class DigitToWordConverter {
                 "eighteen ",
                 "nineteen ",
         };
-        return tensCol2(a - 10);
+        return tensOne[a - 10];
     }
 }

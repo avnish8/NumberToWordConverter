@@ -1,10 +1,12 @@
 package com.avnishsrivastava.input;
 
+import java.util.List;
+
 public interface IUserInput {
     /*
     *
     *
     */
 
-    int getInt();
+    List<Integer> getNumberListFromInput();
 }

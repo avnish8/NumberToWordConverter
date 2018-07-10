@@ -10,10 +10,9 @@ public class ThreeDigitsToWordProcessor {
 
     public String process(int n) {
         int hundred = n / 100;
-        int tensAndUnits = n / 10;
+        int tensAndUnits = n % 100;
         int tens = (n / 10) % 10;
         int units = n % 10;
-
         String result = "";
 
         if (hundred > 0) {
