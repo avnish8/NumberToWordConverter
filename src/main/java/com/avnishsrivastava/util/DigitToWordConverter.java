@@ -1,5 +1,14 @@
 package com.avnishsrivastava.util;
 
+/*
+ *  Created by: Avnish Srivastava
+ *  github    : www.github.com/avnish8
+ *  email     : avnishsrivastava@virtusa.com
+ *
+ *  A simple utility class to help convert the numbers to british english
+ *
+ * */
+
 public class DigitToWordConverter {
 
     public String units(int a) {

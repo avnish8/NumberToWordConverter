@@ -1,14 +1,18 @@
-package com.avnishsrivastava.util;
+package com.avnishsrivastava.processor;
 
 import com.avnishsrivastava.input.ScannerInput;
-import com.avnishsrivastava.processor.ThreeDigitsToWordProcessor;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 public class ThreeDigitsToWordProcessorTest {
 
     ThreeDigitsToWordProcessor processor;
+
+    @Rule
+    public final ExpectedException exception = ExpectedException.none();
 
     @Before
     public void setUP() {
@@ -23,6 +27,12 @@ public class ThreeDigitsToWordProcessorTest {
         Assert.assertEquals("three hundred and twenty one", processor.process(321).trim());
         Assert.assertEquals("one hundred and one", processor.process(101).trim());
         Assert.assertEquals("one hundred and twenty three", processor.process(123).trim());
+    }
+
+    @Test
+    public void checkEmptyDecodingList(){
+        exception.expect(RuntimeException.class);
+        processor.decode(null);
 
     }
 }

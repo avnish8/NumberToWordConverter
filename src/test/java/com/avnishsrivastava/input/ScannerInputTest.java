@@ -1,8 +1,8 @@
 package com.avnishsrivastava.input;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
+import org.junit.rules.ExpectedException;
+import java.util.List;
 
 public class ScannerInputTest {
 
@@ -30,17 +30,43 @@ public class ScannerInputTest {
             999999999
     };
 
+    @Rule
+    public final ExpectedException exception = ExpectedException.none();
+
     @Before
     public void setUp() {
-        input = new ScannerInput();
+        input = new ScannerInput("src/main/java/com/avnishsrivastava/resources/input.txt");
     }
 
     @Test
     public void getNumbersListFromInputTest() {
         int j = 0;
-        for (int number : input.getNumbersListFromInput()) {
+        List<Integer> inputList = input.getNumbersListFromInput();
+        Assert.assertNotNull(inputList);
+        for (int number : inputList) {
             Assert.assertEquals(inputNumbers[j], number);
             j++;
         }
     }
+
+    @Test
+    public void checkFileNotFoundException(){
+        exception.expect(RuntimeException.class);
+        input = new ScannerInput("src/test/java/com/avnishsrivastava/resources/input1.txt");
+    }
+
+    @Test
+    public void checkInputMismatchException(){
+        exception.expect(RuntimeException.class);
+        input = new ScannerInput("src/test/java/com/avnishsrivastava/resources/input_mismatch.txt");
+        List<Integer> inputList = input.getNumbersListFromInput();
+    }
+
+    @Test
+    public void checkWrongInputException(){
+        exception.expect(RuntimeException.class);
+        input = new ScannerInput("src/test/java/com/avnishsrivastava/resources/wrong_input.txt");
+        List<Integer> inputList = input.getNumbersListFromInput();
+    }
+
 }

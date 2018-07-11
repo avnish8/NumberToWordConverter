@@ -1,45 +1,40 @@
 package com.avnishsrivastava.decoder;
 
 import com.avnishsrivastava.input.IUserInput;
-import com.avnishsrivastava.util.SuffixData;
-import com.avnishsrivastava.util.ThreeDigitsToWordProcessor;
-import java.util.ArrayList;
+import com.avnishsrivastava.processor.INumberToWordProcessor;
 import java.util.List;
+
+/*
+ *  Created by: Avnish Srivastava
+ *  github    : www.github.com/avnish8
+ *  email     : avnishsrivastava@virtusa.com
+ *
+ *  This class takes input of numbers via a "IUserInput" object
+ *  numbers are returned as a list
+ *
+ *  The "INumberToWordProcessor" object has a decode method which
+ *  take in a list of integers and
+ *  returns the list of words of numbers in British English
+ *
+ * */
+
 
 public class Decoder {
 
     private IUserInput NumberInput;
-    private ThreeDigitsToWordProcessor threeDigitsToWordProcessor;
+    private INumberToWordProcessor processor;
 
 
-    public Decoder(IUserInput input) {
+    public Decoder(IUserInput input, INumberToWordProcessor processor) {
         this.NumberInput = input;
-        this.threeDigitsToWordProcessor = new ThreeDigitsToWordProcessor();
+        this.processor = processor;
     }
 
 
     public List<String> decode() {
 
         List<Integer> numbers = NumberInput.getNumbersListFromInput();
-        List<String> finalResults = new ArrayList<>();
-
-        for (int number : numbers) {
-
-            String finalString = "";
-            for (int i = 0; number > 0; i++, number /= 1000) {
-                int threeDigits = number % 1000;
-                String str = decodeHelper(threeDigits, i);
-                finalString = str + finalString;
-            }
-
-            finalResults.add(finalString.trim());
-        }
-        return finalResults;
+        return processor.decode(numbers);
     }
 
-
-    private String decodeHelper(int threeDigits, int part) {
-
-        return threeDigitsToWordProcessor.process(threeDigits) + SuffixData.get(part);
-    }
 }

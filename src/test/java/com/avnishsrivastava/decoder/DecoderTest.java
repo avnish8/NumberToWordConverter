@@ -1,16 +1,17 @@
 package com.avnishsrivastava.decoder;
 
 import com.avnishsrivastava.input.ScannerInput;
+import com.avnishsrivastava.processor.ThreeDigitsToWordProcessor;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
 import java.util.List;
 
 
 public class DecoderTest {
 
     private String[] s;
-
 
     @Before
     public void setup() {
@@ -40,8 +41,9 @@ public class DecoderTest {
 
     @Test
     public void testDecodeMethod() {
-        ScannerInput input = new ScannerInput();
-        Decoder decoder = new Decoder(input);
+        ScannerInput input = new ScannerInput("src/main/java/com/avnishsrivastava/resources/input.txt");
+        ThreeDigitsToWordProcessor processor = new ThreeDigitsToWordProcessor();
+        Decoder decoder = new Decoder(input, processor);
         List<String> output = decoder.decode();
 
         Assert.assertNotNull(output);
@@ -51,4 +53,5 @@ public class DecoderTest {
             Assert.assertNotNull(output.get(i));
         }
     }
+
 }
