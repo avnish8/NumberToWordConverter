@@ -1,5 +1,7 @@
 package com.avnishsrivastava.util;
 
+import com.avnishsrivastava.input.ScannerInput;
+import com.avnishsrivastava.processor.ThreeDigitsToWordProcessor;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
