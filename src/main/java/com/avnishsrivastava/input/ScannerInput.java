@@ -46,7 +46,7 @@ public class ScannerInput implements IUserInput {
         while (input.hasNextLine()) {
             try {
                 int number = input.nextInt();
-                if (number < 0 || number > 999999999) {
+                if (number <= 0 || number > 999999999) {
                     System.out.println("Wrong Input Exception");
                     throw new RuntimeException("Input must be > 0 and < 1,000,000,000");
                 }
